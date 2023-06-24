@@ -1,6 +1,6 @@
 # havadurumu
 
-Bu uygulama html'de girilen şehrin hava durumunu gösteren bir programdır. html üzerinde oynayarak daha güzel bir site oluşturabilirsiniz.
+Bu uygulama html'de girilen şehrin hava durumunu gösteren bir programdır. html üzerinde değişiklik yaparak daha güzel bir site oluşturabilirsiniz.
 
 Yüklenmesi gereken kütüphaneler;
 flask
