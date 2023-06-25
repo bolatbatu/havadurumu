@@ -12,7 +12,7 @@ def get_weather_data(city):
 
 
 def get_temperature(lat, lon):
-    url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=779c271986d91ab4f86362ce5d62e73c&units=metric"
+    url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=Api_keyinizi_giriniz&units=metric"
     r = requests.get(url)
     data = r.json()
     temperature = data["main"]["temp"]
