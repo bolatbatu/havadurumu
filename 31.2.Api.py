@@ -5,7 +5,7 @@ import time
 app = Flask(__name__)
 
 def get_weather_data(city):
-    url = f"https://api.openweathermap.org/geo/1.0/direct?q={city}&limit=5&appid=779c271986d91ab4f86362ce5d62e73c"
+    url = f"https://api.openweathermap.org/geo/1.0/direct?q={city}&limit=5&appid=Api_keyinizi_giriniz"
     r = requests.get(url)
     data = r.json()
     return data
